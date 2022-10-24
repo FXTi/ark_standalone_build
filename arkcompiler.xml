@@ -10,7 +10,7 @@
     <linkfile dest=".gn" src="build/compile_script/.gn"/>
     <linkfile dest="prebuilts_download.sh" src="build/prebuilts_download/prebuilts_download.sh"/>
   </project>
-  <project name="developtools_profiler" path="profiler" remote="openharmony" revision="master" />
+  <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="master" />
   <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="master" />
   <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="master" />
   <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="master" />
