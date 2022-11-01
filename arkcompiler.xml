@@ -2,18 +2,18 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony" review="https://openharmony.gitee.com/openharmony/" />
 
-  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="master" />
-  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="master" />
-  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="master" />
-  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="master" >
+  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="2e45596a49ff16cd4f6e3bcea62d24366ba6e9f0" upstream="master" />
+  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="392f1cd0177a1daf0ba01be1ed67429c2de18df0" upstream="master" />
+  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="bc4835b144f51c888307562721f63f5c55c63201" upstream="master" />
+  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="f978464dda149a8e186dad554bdcec765c17e217" upstream="master" >
     <linkfile dest="ark.py" src="build/compile_script/ark.py" />
     <linkfile dest=".gn" src="build/compile_script/.gn"/>
     <linkfile dest="prebuilts_download.sh" src="build/prebuilts_download/prebuilts_download.sh"/>
   </project>
-  <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="master" />
-  <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="master" />
-  <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="master" />
-  <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="master" />
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="master" />
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="openharmony" revision="master" />
+  <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="01e9f5a90cc8aff1479756b05ca84a69d37400ff" upstream="master" />
+  <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="c270bae5b52ac1112ea1b979059b423832891490" upstream="master" />
+  <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="a9c4858140f35170a94d64e480599c0e0056837f" upstream="master" />
+  <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="1a040360b94e090206a065e79279ec7769af639e" upstream="master" />
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="bf0d75295fe2efdd9f6368c4fbd5dc16eea576c1" upstream="master" />
+  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="openharmony" revision="0f54245188295605044c084b3d8bf181c118c082" upstream="master" />
 </manifest>
