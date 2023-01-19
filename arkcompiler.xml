@@ -11,11 +11,14 @@
     <linkfile dest="prebuilts_download.sh" src="build/prebuilts_download/prebuilts_download.sh"/>
   </project>
   <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="master" />
-  <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="master" />
-  <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="master" />
-  <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="master" />
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="master" />
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="openharmony" revision="master" />
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="openharmony" revision="master" />
   <project name="third_party_googletest" path="third_party/googletest" remote="openharmony" revision="master" />
+  <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="master" />
+  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="openharmony" revision="master" />
+  <project name="third_party_libuv" path="third_party/libuv" remote="openharmony" revision="master" />
+  <project name="third_party_openssl" path="third_party/openssl" remote="openharmony" revision="master" />
+  <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="master" />
   <project name="third_party_typescript" path="third_party/typescript" remote="openharmony" revision="master" />
+  <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="master" />
 </manifest>
