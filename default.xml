@@ -4,4 +4,5 @@
   <default remote="origin" revision="master" sync-j="4" />
 
   <include name="arkcompiler.xml" />
+  <include name="openharmony.xml" />
 </manifest>
