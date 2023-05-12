@@ -16,12 +16,10 @@
   <project name="third_party_cJSON" path="third_party/cJSON" remote="openharmony" revision="master" />
   <project name="third_party_googletest" path="third_party/googletest" remote="openharmony" revision="master" />
   <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="master" />
-  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="openharmony" revision="master" />
   <project name="third_party_libuv" path="third_party/libuv" remote="openharmony" revision="master" />
   <project name="third_party_musl" path="third_party/musl" remote="openharmony" revision="36d609571e3b5d0427bdf6e56fb022286f7279f8" />
   <project name="third_party_openssl" path="third_party/openssl" remote="openharmony" revision="1e4c2629790631c6a739c007d2fbbc2a81e35c5c" />
   <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="openharmony" revision="master" />
   <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="master" />
-  <project name="third_party_typescript" path="third_party/typescript" remote="openharmony" revision="master" />
   <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="master" />
 </manifest>
