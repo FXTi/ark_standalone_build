@@ -19,7 +19,7 @@
   <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="openharmony" revision="master" />
   <project name="third_party_libuv" path="third_party/libuv" remote="openharmony" revision="master" />
   <project name="third_party_musl" path="third_party/musl" remote="openharmony" revision="weekly_20230530" />
-  <project name="third_party_openssl" path="third_party/openssl" remote="openharmony" revision="master" />
+  <project name="third_party_openssl" path="third_party/openssl" remote="openharmony" revision="weekly_20230530" />
   <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="openharmony" revision="master" />
   <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="master" />
   <project name="third_party_typescript" path="third_party/typescript" remote="openharmony" revision="master" />
