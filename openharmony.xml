@@ -23,4 +23,5 @@
   <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="openharmony" revision="weekly_20240122" />
   <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="weekly_20240122" />
   <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="weekly_20240122" />
+  <project name="third_party_json" path="third_party/json" remote="openharmony" revision="weekly_20240122" />
 </manifest>
