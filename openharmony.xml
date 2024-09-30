@@ -2,26 +2,26 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony" review="https://openharmony.gitee.com/openharmony/" />
 
-  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="master" />
-  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="master" />
-  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="master" />
-  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="master" >
+  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="OpenHarmony-5.0-Release" >
     <linkfile dest="ark.py" src="build/compile_script/ark.py" />
     <linkfile dest=".gn" src="build/compile_script/.gn"/>
     <linkfile dest="prebuilts_download.sh" src="build/prebuilts_download/prebuilts_download.sh"/>
   </project>
-  <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
-  <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_cJSON" path="third_party/cJSON" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_googletest" path="third_party/googletest" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_libuv" path="third_party/libuv" remote="openharmony" revision="weekly_20240729" />
+  <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_googletest" path="third_party/googletest" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_libuv" path="third_party/libuv" remote="openharmony" revision="OpenHarmony-5.0-Release" />
   <project name="third_party_musl" path="third_party/musl" remote="openharmony" revision="weekly_20240930" />
-  <project name="third_party_openssl" path="third_party/openssl" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_json" path="third_party/json" remote="openharmony" revision="weekly_20240729" />
+  <project name="third_party_openssl" path="third_party/openssl" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="OpenHarmony-5.0-Release" />
+  <project name="third_party_json" path="third_party/json" remote="openharmony" revision="OpenHarmony-5.0-Release" />
 </manifest>
