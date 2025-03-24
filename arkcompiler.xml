@@ -3,5 +3,5 @@
   <remote fetch="https://gitee.com/ark_standalone_build/" name="ark_standalone_build" review="https://gitee.com/ark_standalone_build/" />
 
   <project name="docs" path="docs" remote="ark_standalone_build" revision="master" />
-  <project name="base_runtime" path="arkcompiler/base_runtime" remote="ark_standalone_build" revision="OpenHarmony_feature_20241108" />
+  <project name="base_runtime" path="arkcompiler/base_runtime" remote="ark_standalone_build" revision="master" />
 </manifest>
