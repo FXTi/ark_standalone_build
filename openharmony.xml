@@ -2,10 +2,10 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony" review="https://openharmony.gitee.com/openharmony/" />
 
-  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="master" />
-  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="master" />
-  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="master" />
-  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="master" >
+  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="OpenHarmony_feature_20250327" />
+  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="OpenHarmony_feature_20250327" />
+  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="OpenHarmony_feature_20250327" />
+  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="OpenHarmony_feature_20250327" >
     <linkfile dest="ark.py" src="build/compile_script/ark.py" />
     <linkfile dest=".gn" src="build/compile_script/.gn"/>
     <linkfile dest="prebuilts_download.sh" src="build/prebuilts_download/prebuilts_download.sh"/>
