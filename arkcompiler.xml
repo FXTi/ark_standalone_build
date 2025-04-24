@@ -3,4 +3,10 @@
   <remote fetch="https://gitee.com/ark_standalone_build/" name="ark_standalone_build" review="https://gitee.com/ark_standalone_build/" />
 
   <project name="docs" path="docs" remote="ark_standalone_build" revision="master" />
+  <project name="build" path="build" remote="ark_standalone_build" revision="master" >
+    <linkfile dest="ark.py" src="compile_script/ark.py" />
+    <linkfile dest=".gn" src="compile_script/.gn"/>
+    <linkfile dest="prebuilts_download.sh" src="prebuilts_download/prebuilts_download.sh"/>
+  </project>
+
 </manifest>
