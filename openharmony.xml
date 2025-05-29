@@ -10,7 +10,7 @@
     <linkfile dest=".gn" src="build/compile_script/.gn"/>
     <linkfile dest="prebuilts_download.sh" src="build/prebuilts_download/prebuilts_download.sh"/>
   </project>
-  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="9cf1433386496c492418be6836b3568e424c2bd0" />
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="3fee045ba4eb34094b496c681c0765c06e33b8d3" />
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
   <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="weekly_20240729" />
