@@ -23,5 +23,5 @@
   <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_json" path="third_party/json" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_node" path="third_party/node" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_pcre2" path="third_party/pcre2" remote="openharmony" revision="OpenHarmony_feature_20250328" />
+  <project name="third_party_pcre2" path="third_party/pcre2" remote="openharmony" revision="f9274a8ecd2bd5c11011434327c27486703cbfdf" />
 </manifest>
