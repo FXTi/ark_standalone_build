@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony" review="https://openharmony.gitee.com/openharmony/" />
   <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
+  <remote fetch="https://gitee.com/zhushihao8/" name="zhushihao" review="https://gitee.com/zhushihao8" />
 
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="OpenHarmony_feature_20250328" />
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="OpenHarmony_feature_20250328" />
@@ -11,7 +12,7 @@
     <linkfile dest=".gn" src="build/compile_script/.gn"/>
     <linkfile dest="prebuilts_download.sh" src="build/prebuilts_download/prebuilts_download.sh"/>
   </project>
-  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="6bcfd909b8674551866ca549e86a898f863cb940" />
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="zhushihao" revision="f4d0abcbc0e29f0bc055c19567a8f825db050af5" />
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
   <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="weekly_20240729" />
