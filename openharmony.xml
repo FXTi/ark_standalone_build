@@ -3,6 +3,7 @@
   <remote fetch="https://gitee.com/openharmony/" name="openharmony" review="https://openharmony.gitee.com/openharmony/" />
   <remote fetch="https://gitee.com/mockmockblack/" name="mockmockblack"  review="https://gitee.com/mockmockblack/" />
   <remote fetch="https://gitee.com/zhushihao8/" name="zhushihao" review="https://gitee.com/zhushihao8" />
+  <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
 
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="OpenHarmony_feature_20250702" />
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="OpenHarmony_feature_20250702" />
