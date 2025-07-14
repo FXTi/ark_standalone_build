@@ -2,14 +2,13 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony" review="https://openharmony.gitee.com/openharmony/" />
   <remote fetch="https://gitee.com/mockmockblack/" name="mockmockblack"  review="https://gitee.com/mockmockblack/" />
-  <remote fetch="https://gitee.com/zhushihao8/" name="zhushihao" review="https://gitee.com/zhushihao8" />
   <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
 
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="OpenHarmony_feature_20250702" />
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="OpenHarmony_feature_20250702" />
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="OpenHarmony_feature_20250702" />
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="OpenHarmony_feature_20250702" />
-  <project name="arkui_napi" path="foundation/arkui/napi" remote="zhushihao" revision="c2eb4af6860388c2e090d994aa86e7122976f05e" />
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="c2eb4af6860388c2e090d994aa86e7122976f05e" />
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
   <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="weekly_20240729" />
