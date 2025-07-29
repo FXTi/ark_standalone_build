@@ -4,10 +4,10 @@
   <remote fetch="https://gitee.com/mockmockblack/" name="mockmockblack"  review="https://gitee.com/mockmockblack/" />
   <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
 
-  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="OpenHarmony_feature_20250702" />
-  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="OpenHarmony_feature_20250702" />
-  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="OpenHarmony_feature_20250702" />
-  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="OpenHarmony_feature_20250702" />
+  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="OpenHarmony_feature_Release_20250728" />
+  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="OpenHarmony_feature_Release_20250728" />
+  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="OpenHarmony_feature_Release_20250728" />
+  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="OpenHarmony_feature_Release_20250728" />
   <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="03372e567680b0d5b3696f6e61baad2d031c4f7c" />
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
   <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="weekly_20240729" />
