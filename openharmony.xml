@@ -8,7 +8,7 @@
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="OpenHarmony_feature_20250702" />
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="OpenHarmony_feature_20250702" />
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="OpenHarmony_feature_20250702" />
-  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="03372e567680b0d5b3696f6e61baad2d031c4f7c" />
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="11b286064333ce6be3e8af55651b69e0458ce8f1" />
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
   <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="weekly_20240729" />
