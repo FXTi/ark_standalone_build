@@ -4,12 +4,15 @@
   <remote fetch="https://gitee.com/mockmockblack/" name="mockmockblack"  review="https://gitee.com/mockmockblack/" />
   <remote fetch="https://gitee.com/leaving-behind-red-dust/" name="lhc" review="https://gitee.com/leaving-behind-red-dust/" />
   <remote fetch="https://gitee.com/sheep-head-master/" name="wzy" review="https://gitee.com/sheep-head-master/" />
+  <remote fetch="https://gitee.com/Ascnbio/" name="Ascnbio" review="https://gitee.com/Ascnbio/" />
 
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="master" />
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="master" />
-  <project name="arkui_napi" path="foundation/arkui/napi" remote="wzy" revision="12fc91bb4b4916455cd74b38a430524604bde2f4" />
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="Ascnbio" revision="d1738b1243efd876228b1ca31f37778c2baaaf55" />
+  <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
+
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
   <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="weekly_20240729" />
@@ -25,5 +28,9 @@
   <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_json" path="third_party/json" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_node" path="third_party/node" remote="openharmony" revision="weekly_20240729" />
+  <project name="third_party_vixl" path="third_party/vixl" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_pcre2" path="third_party/pcre2" remote="openharmony" revision="f9274a8ecd2bd5c11011434327c27486703cbfdf" />
+  <project name="third_party_elfio" path="third_party/elfio" remote="openharmony" revision="OpenHarmony_feature_20250328" />
+  <project name="third_party_asmjit" path="third_party/asmjit" remote="standalone_build" revision="da5100b74bd7b6f6350964e1c3fd6b7ae1f6f2b3" />
+  <project name="third_party_zydis" path="third_party/zydis" remote="standalone_build" revision="a69f8952f8f53d5237dbded7397419a4b9218930" />
 </manifest>
