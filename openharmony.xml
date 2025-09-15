@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitee.com/openharmony/" name="openharmony" review="https://openharmony.gitee.com/openharmony/" />
+  <remote fetch="https://gitcode.com/openharmony/" name="openharmony" review="https://gitcode.com/openharmony/" />
   <remote fetch="https://gitee.com/mockmockblack/" name="mockmockblack"  review="https://gitee.com/mockmockblack/" />
   <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
 
