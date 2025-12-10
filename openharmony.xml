@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitcode.com/openharmony/" name="openharmony" review="https://gitcode.com/openharmony/" />
-  <remote fetch="https://gitee.com/mockmockblack/" name="mockmockblack"  review="https://gitee.com/mockmockblack/" />
-  <remote fetch="https://gitee.com/leaving-behind-red-dust/" name="lhc" review="https://gitee.com/leaving-behind-red-dust/" />
-  <remote fetch="https://gitee.com/sheep-head-master/" name="wzy" review="https://gitee.com/sheep-head-master/" />
-  <remote fetch="https://gitee.com/Ascnbio/" name="Ascnbio" review="https://gitee.com/Ascnbio/" />
 
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="master" />
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="master" />
-  <project name="arkui_napi" path="foundation/arkui/napi" remote="Ascnbio" revision="d1738b1243efd876228b1ca31f37778c2baaaf55" />
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="dd0d4f0dfd5a45b260678176c5e66f06a6b4dbac" />
   <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
 
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
