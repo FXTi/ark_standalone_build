@@ -29,4 +29,5 @@
   <project name="third_party_elfio" path="third_party/elfio" remote="openharmony" revision="OpenHarmony_feature_20250328" />
   <project name="third_party_asmjit" path="third_party/asmjit" remote="standalone_build" revision="da5100b74bd7b6f6350964e1c3fd6b7ae1f6f2b3" />
   <project name="third_party_zydis" path="third_party/zydis" remote="standalone_build" revision="a69f8952f8f53d5237dbded7397419a4b9218930" />
+  <project name="third_party_flatbuffers" path="third_party/flatbuffers" remote="openharmony" revision="OpenHarmony-6.0-Release" />
 </manifest>
