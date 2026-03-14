@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitcode.com/openharmony/" name="openharmony" review="https://gitcode.com/openharmony/" />
-  <remote fetch="https://gitcode.com/zhangpeng611/" name="zhangpeng611" review="https://gitcode.com/zhangpeng611/" />
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="master" />
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="master" />
-  <project name="arkui_napi" path="foundation/arkui/napi" remote="zhangpeng611" revision="0608f586f60fd663ce1ef5faa306eab89f2b7903" />
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="3d9e2b1ee27632537cce91e86936682911a77c2f" />
   <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
 
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
@@ -16,7 +15,7 @@
   <project name="third_party_FreeBSD" path="third_party/FreeBSD" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_googletest" path="third_party/googletest" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="weekly_20240729" />
-  <project name="third_party_libuv" path="third_party/libuv" remote="openharmony" revision="weekly_20250714" />
+  <project name="third_party_libuv" path="third_party/libuv" remote="openharmony" revision="ff5459ba616bd8d08d1319f61a06a5f92756a719" />
   <project name="third_party_musl" path="third_party/musl" remote="openharmony" revision="weekly_20250317" />
   <project name="third_party_openssl" path="third_party/openssl" remote="openharmony" revision="weekly_20240729" />
   <project name="third_party_optimized_routines" path="third_party/optimized-routines" remote="openharmony" revision="weekly_20240729" />
