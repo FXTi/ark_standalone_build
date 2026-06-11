@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitcode.com/openharmony/" name="openharmony" review="https://gitcode.com/openharmony/" />
-  <remote fetch="https://gitcode.com/dengwenjun/" name="dengwenjun" review="https://gitcode.com/dengwenjun/" />
+  <remote fetch="https://gitcode.com/liuhcunlin/" name="liuchunlin" review="https://gitcode.com/liuhcunlin/" />
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="master" />
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="master" />
-  <project name="arkui_napi_co-dev" path="foundation/arkui/napi" remote="dengwenjun" revision="6ac2cf53f46361d182bde218b05a6ca6477565db" />
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="liuchunlin" revision="3309b9d6334f9d68b146b9818943ca1a23246408" />
   <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
 
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
