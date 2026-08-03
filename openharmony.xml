@@ -2,12 +2,12 @@
 <manifest>
   <remote fetch="https://gitcode.com/openharmony/" name="openharmony" review="https://gitcode.com/openharmony/" />
   <remote fetch="https://gitcode.com/thirteenthree/" name="thirteenthree" review="https://gitcode.com/thirteenthree/" />
-  <remote fetch="https://gitcode.com/JIMINGC26/" name="jiangmingcheng" review="https://gitcode.com/JIMINGC26/" />
+  <remote fetch="https://gitcode.com/rentangyu/" name="rentangyu" review="https://gitcode.com/rentangyu/" />
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="master" />
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="master" />
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="master" />
-  <project name="arkui_napi" path="foundation/arkui/napi" remote="jiangmingcheng" revision="2b1c2e6dd199f99fb0eaa74415c38a55a94a8182" />
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="rentangyu" revision="d6ac26d4431cb00f0ee16057f36d3102e3b69610" />
   <remote fetch="https://gitee.com/ark_standalone_build/" name="standalone_build" review="https://openharmony.gitee.com/ark_standalone_build/" />
   <project name="kernel_linux_patches" path="kernel/linux/patches" remote="openharmony" revision="weekly_20240729" />
   <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="weekly_20240729" />
